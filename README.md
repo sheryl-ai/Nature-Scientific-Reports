@@ -4,16 +4,16 @@
 This is the completed version of codes for paper [Data-Driven Subtyping of Parkinson’s Disease Using Longitudinal Clinical Records: A Cohort Study](https://www.nature.com/articles/s41598-018-37545-z.pdf) by [Xi Sheryl Zhang](https://www.xi-zhang.net/), Jingyuan Chou, Jian Liang, Cao Xiao, [Yize Zhao](http://vivo.med.cornell.edu/display/cwid-yiz2013), [Harini Sarva](https://weillcornell.org/harini-sarva-md), [Claire Henchcliffe](https://weillcornell.org/chenchcliffe), and [Fei Wang](https://sites.google.com/site/feiwang03/).
 
 ## Overview
-There are three parts of the implementation, including data preprocessing, subtyping and Statistical analysis. Basically, we preprocess the PPMI data and subtype patients via Matlab. Then, based on the subtyping results, the statistical analysis is conducted by Python. 
+There are three parts of the implementation, including data preprocessing, subtyping and Statistical analysis. Basically, we preprocess the PPMI data and subtype patients via Matlab. Then, based on the subtyping results, the statistical analysis is conducted by Python.
 
 ## Data Preprocessing
-<p align="center"><img src="figure/LSTM.jpg" alt="Illustration of our LSTM recurrent neural network" width="500"></p>
 
+<p align="center"><img src="figure/LSTM.jpg" alt="Illustration of our LSTM recurrent neural network" width="600"></p>
 
 
 ## Subtyping
 <p align="center"><img src="figure/flowchart.jpg" alt=" Overall fow of the
-proposed LSTM-based method" width="500"></p>
+proposed LSTM-based method" width="600"></p>
 
 ## Statistical Analysis
 Please find the Python codes in [Repo](https://github.com/sheryl-ai/PPMI-Subtype-Analysis.git).
