@@ -7,6 +7,9 @@ This is the completed version of codes for paper [Data-Driven Subtyping of Parki
 There are three parts of the implementation, including data preprocessing, subtyping and Statistical analysis. Basically, we preprocess the PPMI data and subtype patients via Matlab. Then, based on the subtyping results, the statistical analysis is conducted by Python.     
 
 ## Data Preprocessing
+<p align="center"><img src="figure/LSTM.jpg" alt="Illustration of our LSTM recurrent neural network" width="500"></p>
+
+
 
 ## Subtyping
 <p align="center"><img src="figure/flowchart.jpg" alt=" Overall fow of the
