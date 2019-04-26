@@ -31,7 +31,7 @@ year={2019},
 publisher={Nature Publishing Group}
 }
 ```
-This paper can be accessed on : [Data-Driven Subtyping of Parkinson's Disease Using Longitudinal Clinical Records: A Cohort Study] (https://www.nature.com/articles/s41598-018-37545-z.pdf)
+This paper can be accessed on : [Data-Driven Subtyping of Parkinson's Disease Using Longitudinal Clinical Records: A Cohort Study](https://www.nature.com/articles/s41598-018-37545-z.pdf). Supplementary Material can be found [here](https://static-content.springer.com/esm/art%3A10.1038%2Fs41598-018-37545-z/MediaObjects/41598_2018_37545_MOESM1_ESM.pdf).
 
 
 ## Contact
