@@ -9,7 +9,7 @@ There are three parts of the implementation, including data preprocessing, subty
 ## Data Preprocessing
 
 ## Subtyping
-<p align="center"><img src="figure/flowchart.png" alt=" Overall fow of the
+<p align="center"><img src="figure/flowchart.jpg" alt=" Overall fow of the
 proposed LSTM-based method" width="500"></p>
 
 ## Statistical Analysis
