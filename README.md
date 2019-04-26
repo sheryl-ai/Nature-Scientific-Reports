@@ -16,7 +16,7 @@ There are three parts of the implementation, including data preprocessing, subty
 proposed LSTM-based method" width="600"></p>
 
 ## Statistical Analysis
-Please find the Python codes in [Repo](https://github.com/sheryl-ai/PPMI-Subtype-Analysis.git).
+Please find the Python codes in the [Repo](https://github.com/sheryl-ai/PPMI-Subtype-Analysis.git) of Subtype Analysis.
 
 ## References
 ```
