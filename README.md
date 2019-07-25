@@ -9,7 +9,7 @@ There are three parts of the implementation, including data preparation, subtypi
 
 <p align="center"><img src="figure/LSTM.jpg" alt="Illustration of our LSTM recurrent neural network" width="600"></p>
 
-The preprocessed data used in this work and [Time-aware LSTM](https://github.com/illidanlab/T-LSTM.git) can be find in the folder Subtyping Procedure/data_PPMI.mat. It is an entirely deidentified file (with fake patient index), based on the data published on June 21, 2016. The variable X and Y are the input and target feature matrix respectively, where each row is multiple clinical scores merged at one specific timepoint. Their dimension are 319 and 82.    
+The preprocessed data used in this work and [Time-aware LSTM](https://github.com/illidanlab/T-LSTM.git) can be find in the folder Subtyping Procedure/data_PPMI.mat. It is an entirely deidentified file (with fake patient index), based on the data published on June 21, 2016. The variable X and Y are the input and target feature matrix respectively, where each row is multiple clinical scores merged at one specific timepoint. Their dimensions are 319 and 82.    
 
 ## Subtyping
 <p align="center"><img src="figure/flowchart.jpg" alt=" Overall fow of the
