@@ -1,6 +1,6 @@
-clc;close all;clear; 
+clc;close all;clear;
 %% load
-load data_PPMI_multilabel  
+load data_PPMI
 Y(Y(:,1)==-1,1)=0;
 [n,d] = size(X);
 %% construct tranning data
@@ -27,9 +27,9 @@ Y_binary = Y(:,task_type == 2)';
 task_type = task_type';
 %hold out validation
 trainQueue_save = trainQueue;
-idx = randperm(n);          
+idx = randperm(n);
 train_ratio = 0.6;         %tranning : validation : testing = 6:2:2, patients in the validation set or testing set are not in the trainning set.
-valid_ratio = 0.2;        
+valid_ratio = 0.2;
 n_train = round(train_ratio *n);
 n_valid = round(valid_ratio *n);
 n_test = n - n_train - n_valid;
@@ -44,14 +44,14 @@ opts.lambda = 1e-2; %L2 penalty
 opts.flag_adadelta = 1; %optimization method: 1 for adadelta, 0 for SGD
 opts.epsilon0 = 1e-6;   %learning rate
 opts.miniBatch = 10;    %mini batch
-opts.EPS = 1e-6;        
+opts.EPS = 1e-6;
 opts.task_type=task_type'; %loss type of each label: 1 for squared loss, 2 for logistic loss
 opts.p_adadelta = 0.95;    %historical weights of adadelta
-opts.maxIter = 1000;       %number of epoch 
+opts.maxIter = 1000;       %number of epoch
 opts.save_name = sprintf('PPMI_hSize_%d',hSize);
 %% trainning
-disp('train') 
+disp('train')
 [ model ] = createModel_LSTM_PPMI( xSize,hSize,m,task_type, Y_binary );
 [ model ] = trainModel_LSTM_PPMI( trainQueue,validQueue,model,opts);
 disp('test')
-[loss,nmse,auc,nmse_poiss,score_vec] = forword_LSTM_PPMI( testQueue,model,opts); 
+[loss,nmse,auc,nmse_poiss,score_vec] = forword_LSTM_PPMI( testQueue,model,opts);
