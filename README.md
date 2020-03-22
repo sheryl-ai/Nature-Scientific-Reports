@@ -15,8 +15,9 @@ The preprocessed data used in this work and [Time-aware LSTM](https://github.com
 <p align="center"><img src="figure/flowchart.jpg" alt=" Overall fow of the
 proposed LSTM-based method" width="600"></p>
 
-Running intructions: for the embedding code, please try final_1_LSTM.m;
-                     for the clustering code, please try final_2_clustering.m.
+Running Hints:<br />
+For embedding, please try final_1_LSTM.m; <br />
+For clustering and visualization, please try final_2_clustering.m.
 
 ## Statistical Analysis
 Please find the Python codes in the [Repo](https://github.com/sheryl-ai/PPMI-Subtype-Analysis.git) of Subtype Analysis.
